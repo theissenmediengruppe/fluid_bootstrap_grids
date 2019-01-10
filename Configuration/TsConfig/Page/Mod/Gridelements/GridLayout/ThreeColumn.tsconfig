@@ -1,0 +1,39 @@
+tx_gridelements {
+    # TS Elemente haben Vorrang vor Datensätzen mit gleichen IDs
+    overruleRecords = 1
+
+    setup {
+        threecolumn {
+            title = LLL:EXT:fluid_bootstrap_grids/Resources/Private/Language/Backend.xlf:tsconfig.3column
+            description = LLL:EXT:fluid_bootstrap_grids/Resources/Private/Language/Backend.xlf:tsconfig.3columnDescription
+            frame = 1
+            icon = EXT:fluid_bootstrap_grids/Resources/Public/Icons/three_columns.svg
+            flexformDS = FILE:EXT:fluid_bootstrap_grids/Configuration/FlexForms/ThreeColumn.xml
+            topLevelLayout = 0
+            config {
+                colCount = 3
+                rowCount = 1
+                rows {
+                    1 {
+                        columns {
+                            1 {
+                                name = LLL:EXT:fluid_bootstrap_grids/Resources/Private/Language/Backend.xlf:flexform.column1
+                                colPos = 10
+                            }
+
+                            2 {
+                                name = LLL:EXT:fluid_bootstrap_grids/Resources/Private/Language/Backend.xlf:flexform.column2
+                                colPos = 20
+                            }
+
+                            3 {
+                                name = LLL:EXT:fluid_bootstrap_grids/Resources/Private/Language/Backend.xlf:flexform.column3
+                                colPos = 30
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

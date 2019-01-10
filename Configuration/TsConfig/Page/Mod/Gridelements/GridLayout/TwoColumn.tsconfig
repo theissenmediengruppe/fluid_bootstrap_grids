@@ -1,0 +1,34 @@
+tx_gridelements {
+    # TS Elemente haben Vorrang vor Datensätzen mit gleichen IDs
+    overruleRecords = 1
+
+    setup {
+        twocolumn {
+            title = LLL:EXT:fluid_bootstrap_grids/Resources/Private/Language/Backend.xlf:tsconfig.2column
+            description = LLL:EXT:fluid_bootstrap_grids/Resources/Private/Language/Backend.xlf:tsconfig.2columnDescription
+            frame = 1
+            icon = EXT:fluid_bootstrap_grids/Resources/Public/Icons/two_columns.svg
+            flexformDS = FILE:EXT:fluid_bootstrap_grids/Configuration/FlexForms/TwoColumn.xml
+            topLevelLayout = 0
+            config {
+                colCount = 2
+                rowCount = 1
+                rows {
+                    1 {
+                        columns {
+                            1 {
+                                name = LLL:EXT:fluid_bootstrap_grids/Resources/Private/Language/Backend.xlf:flexform.column1
+                                colPos = 10
+                            }
+
+                            2 {
+                                name = LLL:EXT:fluid_bootstrap_grids/Resources/Private/Language/Backend.xlf:flexform.column2
+                                colPos = 20
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

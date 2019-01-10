@@ -1,0 +1,4 @@
+#
+# GRIDLAYOUTS
+#
+<INCLUDE_TYPOSCRIPT: source="DIR:EXT:fluid_bootstrap_grids/Configuration/TsConfig/Page/Mod/Gridelements/GridLayout" extensions="tsconfig">

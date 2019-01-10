@@ -1,0 +1,26 @@
+{
+    "name": "tmg/fluid-bootstrap-grids",
+    "type": "typo3-cms-extension",
+    "description": "Extends gridelements to create bootstrap grids the easy way.",
+    "authors": [
+        {
+            "name": "Jonas Esser",
+            "role": "Developer"
+        }
+    ],
+    "version": "1.0.0",
+    "license": "GPL-2.0-or-later",
+    "require": {
+        "typo3/cms-core": "^9.5",
+        "gridelementsteam/gridelements": "9.0.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "TMG\\FluidBootstrapGrids\\": "Classes"
+        }
+    },
+    "replace": {
+        "fluid_bootstrap_grids": "self.version",
+        "typo3-ter/fluid-bootstrap-grids": "self.version"
+    }
+}

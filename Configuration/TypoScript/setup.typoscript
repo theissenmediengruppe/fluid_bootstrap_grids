@@ -1,0 +1,37 @@
+# loaded ts after install the ext:gridelements
+[userFunc = TYPO3\CMS\Core\Utility\ExtensionManagementUtility::isLoaded('gridelements')]
+    <INCLUDE_TYPOSCRIPT: source="FILE:EXT:gridelements/Configuration/TypoScript/DataProcessing/setup.typoscript" extensions="typoscript">
+[global]
+
+// stdWrap functions being applied to each element
+lib.gridelements.defaultGridSetup {
+    layoutRootPaths {
+        20 = EXT:fluid_bootstrap_grids/Resources/Private/Layouts/
+    }
+
+    partialRootPaths {
+        20 = EXT:fluid_bootstrap_grids/Resources/Private/Partials/
+    }
+
+    templateRootPaths {
+        20 = EXT:fluid_bootstrap_grids/Resources/Private/Templates/
+    }
+
+    dataProcessing {
+        10 {
+            default {
+                # options {
+                #    sortingDirection = ASC
+                #    sortingField = sorting
+                #    recursive = 0
+                #    resolveFlexFormData = 1
+                #    resolveBackendLayout = 1
+                #    respectColumns = 1
+                #    respectRows = 1
+                #}
+            }
+        }
+    }
+}
+
+tt_content.gridelements_pi1 < lib.gridelements.defaultGridSetup

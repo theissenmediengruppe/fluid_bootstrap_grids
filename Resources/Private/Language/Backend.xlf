@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+    <file source-language="en" datatype="plaintext" original="messages" date="2019-01-19T12:15:01Z"
+          product-name="fluid_bootstrap_grids">
+        <header/>
+        <body>
+            <trans-unit id="flexform.desktop">
+                <source>Desktop</source>
+            </trans-unit>
+            <trans-unit id="flexform.smallDevices">
+                <source>Small devices</source>
+            </trans-unit>
+            <trans-unit id="flexform.column1">
+                <source>First column</source>
+            </trans-unit>
+            <trans-unit id="flexform.column2">
+                <source>Second column</source>
+            </trans-unit>
+            <trans-unit id="flexform.column3">
+                <source>Third column</source>
+            </trans-unit>
+            <trans-unit id="flexform.column4">
+                <source>Fourth column</source>
+            </trans-unit>
+            <trans-unit id="tsconfig.1column">
+                <source>One column</source>
+            </trans-unit>
+            <trans-unit id="tsconfig.1columnDescription">
+                <source>Grid with just one resizable column</source>
+            </trans-unit>
+            <trans-unit id="tsconfig.2column">
+                <source>Two columns</source>
+            </trans-unit>
+            <trans-unit id="tsconfig.2columnDescription">
+                <source>Grid with two resizable columns</source>
+            </trans-unit>
+            <trans-unit id="tsconfig.3column">
+                <source>Three columns</source>
+            </trans-unit>
+            <trans-unit id="tsconfig.3columnDescription">
+                <source>Grid with three resizable columns</source>
+            </trans-unit>
+            <trans-unit id="tsconfig.4column">
+                <source>Four columns</source>
+            </trans-unit>
+            <trans-unit id="tsconfig.4columnDescription">
+                <source>Grid with four resizable columns</source>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

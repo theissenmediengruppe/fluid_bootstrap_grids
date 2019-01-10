@@ -1,0 +1,4 @@
+#
+# PageTS for fluid_bootstrap_grids
+#
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:fluid_bootstrap_grids/Configuration/TsConfig/Page/Mod/Gridelements/GridLayouts.tsconfig">
