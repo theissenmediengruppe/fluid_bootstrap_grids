@@ -10,6 +10,15 @@ tt_content.gridelements_pi1 {
     templateRootPaths {
         20 = EXT:fluid_bootstrap_grids/Resources/Private/Templates/
     }
+    dataProcessing {
+        10 {
+            default {
+                options {
+                    resolveFlexFormData = 0
+                }
+            }
+        }
+    }
 
 }
 [userFunc = TYPO3\CMS\Core\Utility\ExtensionManagementUtility::isLoaded('bootstrap_package')]

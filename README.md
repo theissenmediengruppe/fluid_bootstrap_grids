@@ -10,7 +10,7 @@ Fluid Bootstrap Grids implements 4 preconfigured Gridelements templates that are
 
 - Install this extension by using composer 
 ```sh
-$ composer require tmg/tmg/fluid-bootstrap-grids
+$ composer require tmg/fluid-bootstrap-grids
 ```
 - Include the TypoScript settings into your template.
 - Include the TsConfig files to page resources
