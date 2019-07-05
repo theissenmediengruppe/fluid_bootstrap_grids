@@ -18,6 +18,11 @@ tt_content.gridelements_pi1 {
                 }
             }
         }
+        1562312390 = TMG\FluidBootstrapGrids\DataProcessing\FlexFormProcessor
+        1562312390 {
+            fieldName = pi_flexform
+            as = flexform
+        }
     }
 
 }

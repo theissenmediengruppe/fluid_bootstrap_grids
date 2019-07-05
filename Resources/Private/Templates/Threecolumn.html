@@ -6,15 +6,15 @@
         <f:then>
             <f:if condition="{options.respectRows}">
                 <f:then>
-                    <f:render partial="BootstrapGrid" section="Rows" arguments="{data: data, children: children, options: options}"/>
+                    <f:render partial="BootstrapGrid" section="Rows" arguments="{data: data, children: children, options: options, flexform: flexform}"/>
                 </f:then>
                 <f:else>
-                    <f:render partial="BootstrapGrid" section="Columns" arguments="{data: data, children: children, options: options}"/>
+                    <f:render partial="BootstrapGrid" section="Columns" arguments="{data: data, children: children, options: options, flexform: flexform}"/>
                 </f:else>
             </f:if>
         </f:then>
         <f:else>
-            <f:render partial="BootstrapGrid" section="Default" arguments="{data: data, children: children, options: options}"/>
+            <f:render partial="BootstrapGrid" section="Default" arguments="{data: data, children: children, options: options, flexform: flexform}"/>
         </f:else>
     </f:if>
 </f:section>

@@ -46,7 +46,7 @@
 <f:section name="Columns">
     <f:if condition="{children}">
         <f:for each="{children}" as="column" key="columnNumber" iteration="iterator">
-            <div id="c{data.uid}-{columnNumber} ge-column" class="col col-lg-{data.pi_flexform.data.sDEF.lDEF.col{iterator.cycle}_lg.vDEF}  col-sm-{data.pi_flexform.data.smallDevices.lDEF.col{iterator.cycle}_sm.vDEF}">
+            <div id="c{data.uid}-{columnNumber}_ge-column" class="col col-lg-{flexform.col{iterator.cycle}_lg}  col-sm-{flexform.col{iterator.cycle}_sm}">
                 <f:for each="{column}" as="child">
                     <f:render partial="Default"
                               arguments="{data: child.data, children: child.children, options: options}"/>
@@ -59,9 +59,9 @@
 <f:section name="Rows">
     <f:if condition="{children}">
         <f:for each="{children}" as="row" key="rowNumber">
-            <div id="c{data.uid}-{rowNumber} ge-row" class="row">
+            <div id="c{data.uid}-{rowNumber}_ge-row" class="row">
                 <f:for each="{row}" as="column" key="columnNumber" iteration="iterator">
-                    <div id="c{data.uid}-{rowNumber}-{columnNumber} ge-column" class="col col-lg-{data.pi_flexform.data.sDEF.lDEF.col{iterator.cycle}_lg.vDEF} col-sm-{data.pi_flexform.data.smallDevices.lDEF.col{iterator.cycle}_sm.vDEF}">
+                    <div id="c{data.uid}-{rowNumber}-{columnNumber}_ge-column" class="col col-lg-{flexform.col{iterator.cycle}_lg} col-sm-{flexform.col{iterator.cycle}_sm}">
                         <f:for each="{column}" as="child">
                             <f:render partial="Default"
                                       arguments="{data: child.data, children: child.children, options: options}"/>
